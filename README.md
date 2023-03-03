@@ -14,7 +14,7 @@
 Create users, thoughts, and friend using an API and MongoDB database connection.
 
 ![Screenshot of Social Media API Routes](screenshot.png)
-![Video Walkthrough of Backend](https://drive.google.com/file/d/1W-l6xQPlnj_aXCtw7uDi1CX-BNaPSnRp/view)
+[Video Walkthrough of Backend](https://drive.google.com/file/d/1W-l6xQPlnj_aXCtw7uDi1CX-BNaPSnRp/view)
 
 ## Usage
 Using Insomnia, test various routes via localhost to ensure proper CRUD operations.
