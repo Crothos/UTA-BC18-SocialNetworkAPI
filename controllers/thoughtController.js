@@ -3,7 +3,7 @@ const { User, Thought } = require('../models');
 module.exports = {
   // Get all thoughts
   getThought(req, res) {
-    Thought.find()
+    Thought.find({})
       .then((thought) => res.json(thought))
       .catch((err) => res.status(500).json(err));
   },
@@ -34,6 +34,7 @@ module.exports = {
     : res.json(thought)
     ).catch((err) => res.status(500).json(err));
   },
+
   // Delete a thought
   deleteThought(req, res) {
     Thought.findOneAndDelete({ _id: req.params.thoughtId })
